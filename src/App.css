@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20px;
+}
+
+.App-header {
+  background-color: #21979B;
+  height: 60px;
+  padding: 20px;
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 20px;
+  width: 200px;
+  font-size: 14px;
+}
+
+
+input[type="submit"] {    
+  width: 50px;
+  background-color: #21979B;
+  height: 60px;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+}
+
+input[type="submit"]:hover {    
+  cursor: pointer;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro { 
+  background-color: #eee;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+/* Instagram container */
+.instacontainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+
+.instapicture {
+  display: inline-block;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.credits {
+  position:absolute;    
+  bottom:0;    
+  width:100%;    
+  padding: 10px 0px;
+  background:#EFE794;
+}
