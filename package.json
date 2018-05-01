@@ -19,5 +19,5 @@
     "predeploy": "REACT_APP_INSTAGRAM_ACC_KEY=YOUR_KEY npm run build",
     "deploy": "gh-pages -d build"
   }, 
-  "homepage": "http://leiluspocus.github.io/hashtagreader"
+  "homepage": "http://leiluspocus.github.io/hashtag-reader"
 }
